@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CoreData
+//import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
         return true
     }
 
@@ -30,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
 
-    func applicationWillEnterForeground(_ application: UIApplication) {
+    func applicationWillEnterForeground(_ applceication: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
     }
 
@@ -41,9 +43,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-        self.saveContext()
+      //  self.saveContext()
     }
+    
 
+
+
+    /*
+     * Not sure why this is here commenting out for now
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
@@ -72,9 +79,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         return container
     }()
-
+ * End large comment block
+ */
     // MARK: - Core Data Saving support
-
+/*
+ * Not sure why I added, commenting out for now
     func saveContext () {
         let context = persistentContainer.viewContext
         if context.hasChanges {
@@ -88,6 +97,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+End big comment*/
 }
 

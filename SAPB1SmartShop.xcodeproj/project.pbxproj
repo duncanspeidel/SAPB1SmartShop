@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8ADCD46525B74B5CC6EE79FD /* Pods_SAPB1SmartShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126188F9355A5313897ED31A /* Pods_SAPB1SmartShop.framework */; };
 		946907CD1F26750A00C851C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946907CC1F26750A00C851C7 /* AppDelegate.swift */; };
 		946907CF1F26750A00C851C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946907CE1F26750A00C851C7 /* ViewController.swift */; };
 		946907D21F26750A00C851C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946907D01F26750A00C851C7 /* Main.storyboard */; };
@@ -15,6 +16,19 @@
 		946907DA1F26750A00C851C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946907D81F26750A00C851C7 /* LaunchScreen.storyboard */; };
 		946907E51F26750A00C851C7 /* SAPB1SmartShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946907E41F26750A00C851C7 /* SAPB1SmartShopTests.swift */; };
 		946907F01F26750A00C851C7 /* SAPB1SmartShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946907EF1F26750A00C851C7 /* SAPB1SmartShopUITests.swift */; };
+		94B8F3FF1F3E33DD00A90A09 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F3FE1F3E33DD00A90A09 /* Bolts.framework */; };
+		94B8F4001F3E33DD00A90A09 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F3FE1F3E33DD00A90A09 /* Bolts.framework */; };
+		94B8F4011F3E33DD00A90A09 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F3FE1F3E33DD00A90A09 /* Bolts.framework */; };
+		94B8F4051F3E33EA00A90A09 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4021F3E33EA00A90A09 /* FBSDKCoreKit.framework */; };
+		94B8F4061F3E33EA00A90A09 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4021F3E33EA00A90A09 /* FBSDKCoreKit.framework */; };
+		94B8F4071F3E33EA00A90A09 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4021F3E33EA00A90A09 /* FBSDKCoreKit.framework */; };
+		94B8F4081F3E33EA00A90A09 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4031F3E33EA00A90A09 /* FBSDKLoginKit.framework */; };
+		94B8F4091F3E33EA00A90A09 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4031F3E33EA00A90A09 /* FBSDKLoginKit.framework */; };
+		94B8F40A1F3E33EA00A90A09 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4031F3E33EA00A90A09 /* FBSDKLoginKit.framework */; };
+		94B8F40B1F3E33EA00A90A09 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4041F3E33EA00A90A09 /* FBSDKShareKit.framework */; };
+		94B8F40C1F3E33EA00A90A09 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4041F3E33EA00A90A09 /* FBSDKShareKit.framework */; };
+		94B8F40D1F3E33EA00A90A09 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8F4041F3E33EA00A90A09 /* FBSDKShareKit.framework */; };
+		94EA9E6B1F3205F3004453AF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94EA9E6A1F3205F3004453AF /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126188F9355A5313897ED31A /* Pods_SAPB1SmartShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAPB1SmartShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CD4846AA71FFF8DAA93A39 /* Pods-SAPB1SmartShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPB1SmartShop.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SAPB1SmartShop/Pods-SAPB1SmartShop.debug.xcconfig"; sourceTree = "<group>"; };
 		946907C91F26750A00C851C7 /* SAPB1SmartShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPB1SmartShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946907CC1F26750A00C851C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		946907CE1F26750A00C851C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		946907EB1F26750A00C851C7 /* SAPB1SmartShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPB1SmartShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		946907EF1F26750A00C851C7 /* SAPB1SmartShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPB1SmartShopUITests.swift; sourceTree = "<group>"; };
 		946907F11F26750A00C851C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B8F3FE1F3E33DD00A90A09 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		94B8F4021F3E33EA00A90A09 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		94B8F4031F3E33EA00A90A09 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		94B8F4041F3E33EA00A90A09 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		94EA9E6A1F3205F3004453AF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CFB9347F8D9E2E4428CABB51 /* Pods-SAPB1SmartShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPB1SmartShop.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SAPB1SmartShop/Pods-SAPB1SmartShop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B8F40B1F3E33EA00A90A09 /* FBSDKShareKit.framework in Frameworks */,
+				94B8F3FF1F3E33DD00A90A09 /* Bolts.framework in Frameworks */,
+				94B8F4051F3E33EA00A90A09 /* FBSDKCoreKit.framework in Frameworks */,
+				94B8F4081F3E33EA00A90A09 /* FBSDKLoginKit.framework in Frameworks */,
+				8ADCD46525B74B5CC6EE79FD /* Pods_SAPB1SmartShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B8F40C1F3E33EA00A90A09 /* FBSDKShareKit.framework in Frameworks */,
+				94B8F4001F3E33DD00A90A09 /* Bolts.framework in Frameworks */,
+				94B8F4061F3E33EA00A90A09 /* FBSDKCoreKit.framework in Frameworks */,
+				94B8F4091F3E33EA00A90A09 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +101,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B8F40D1F3E33EA00A90A09 /* FBSDKShareKit.framework in Frameworks */,
+				94B8F4011F3E33DD00A90A09 /* Bolts.framework in Frameworks */,
+				94B8F4071F3E33EA00A90A09 /* FBSDKCoreKit.framework in Frameworks */,
+				94B8F40A1F3E33EA00A90A09 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A248E513C77EBA7D042D70C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94B8F4021F3E33EA00A90A09 /* FBSDKCoreKit.framework */,
+				94B8F4031F3E33EA00A90A09 /* FBSDKLoginKit.framework */,
+				94B8F4041F3E33EA00A90A09 /* FBSDKShareKit.framework */,
+				94B8F3FE1F3E33DD00A90A09 /* Bolts.framework */,
+				126188F9355A5313897ED31A /* Pods_SAPB1SmartShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		946907C01F26750A00C851C7 = {
 			isa = PBXGroup;
 			children = (
+				94EA9E6A1F3205F3004453AF /* Settings.bundle */,
 				946907CB1F26750A00C851C7 /* SAPB1SmartShop */,
 				946907E31F26750A00C851C7 /* SAPB1SmartShopTests */,
 				946907EE1F26750A00C851C7 /* SAPB1SmartShopUITests */,
 				946907CA1F26750A00C851C7 /* Products */,
+				3A248E513C77EBA7D042D70C /* Frameworks */,
+				A6CA0E45AF9E6517FF070D4A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +178,15 @@
 			path = SAPB1SmartShopUITests;
 			sourceTree = "<group>";
 		};
+		A6CA0E45AF9E6517FF070D4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16CD4846AA71FFF8DAA93A39 /* Pods-SAPB1SmartShop.debug.xcconfig */,
+				CFB9347F8D9E2E4428CABB51 /* Pods-SAPB1SmartShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 946907F41F26750A00C851C7 /* Build configuration list for PBXNativeTarget "SAPB1SmartShop" */;
 			buildPhases = (
+				8DE18390C85FE0FC2E8E256C /* [CP] Check Pods Manifest.lock */,
 				946907C51F26750A00C851C7 /* Sources */,
 				946907C61F26750A00C851C7 /* Frameworks */,
 				946907C71F26750A00C851C7 /* Resources */,
+				DA8B56BAEDEEECB7812A9CFC /* [CP] Embed Pods Frameworks */,
+				17A1467FB1DD019C6C205BDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +258,7 @@
 				TargetAttributes = {
 					946907C81F26750A00C851C7 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = WR3PMPPAU3;
+						DevelopmentTeam = XTZQ53UU9E;
 						ProvisioningStyle = Automatic;
 					};
 					946907DF1F26750A00C851C7 = {
@@ -238,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EA9E6B1F3205F3004453AF /* Settings.bundle in Resources */,
 				946907DA1F26750A00C851C7 /* LaunchScreen.storyboard in Resources */,
 				946907D71F26750A00C851C7 /* Assets.xcassets in Resources */,
 				946907D21F26750A00C851C7 /* Main.storyboard in Resources */,
@@ -259,6 +322,72 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17A1467FB1DD019C6C205BDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SAPB1SmartShop/Pods-SAPB1SmartShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE18390C85FE0FC2E8E256C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAPB1SmartShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8B56BAEDEEECB7812A9CFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-SAPB1SmartShop/Pods-SAPB1SmartShop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SAPB1SmartShop/Pods-SAPB1SmartShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		946907C51F26750A00C851C7 /* Sources */ = {
@@ -325,12 +454,12 @@
 		946907F21F26750A00C851C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "";
+				CLANG_CXX_LIBRARY = "";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -348,7 +477,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../FacebookSDK\"";
+				GCC_C_LANGUAGE_STANDARD = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -374,12 +504,12 @@
 		946907F31F26750A00C851C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "";
+				CLANG_CXX_LIBRARY = "";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -395,9 +525,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../FacebookSDK\"";
+				GCC_C_LANGUAGE_STANDARD = "";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -415,11 +546,30 @@
 		};
 		946907F51F26750A00C851C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CD4846AA71FFF8DAA93A39 /* Pods-SAPB1SmartShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WR3PMPPAU3;
+				DEVELOPMENT_TEAM = XTZQ53UU9E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+					"\"$(SRCROOT)/../../facebook-sdk-swift-0.2.0\"/**",
+					"\"$(SRCROOT)/../../FacebookSDKs-iOS-4.25.0\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited) \"$(SRCROOT)/../../FacebookSDK\" \"$(SRCROOT)/../../facebook-sdk-swift-0.2.0\"";
+				GCC_C_LANGUAGE_STANDARD = "";
 				INFOPLIST_FILE = SAPB1SmartShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sap.SAPB1SmartShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -428,11 +578,28 @@
 		};
 		946907F61F26750A00C851C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB9347F8D9E2E4428CABB51 /* Pods-SAPB1SmartShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WR3PMPPAU3;
+				DEVELOPMENT_TEAM = XTZQ53UU9E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+					"\"$(SRCROOT)/../../facebook-sdk-swift-0.2.0\"/**",
+				);
+				GCC_C_LANGUAGE_STANDARD = "";
 				INFOPLIST_FILE = SAPB1SmartShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sap.SAPB1SmartShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -445,6 +612,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = WR3PMPPAU3;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = SAPB1SmartShopTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sap.SAPB1SmartShopTests;
@@ -474,6 +642,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WR3PMPPAU3;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = SAPB1SmartShopUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sap.SAPB1SmartShopUITests;
@@ -516,6 +685,7 @@
 				946907F61F26750A00C851C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946907F71F26750A00C851C7 /* Build configuration list for PBXNativeTarget "SAPB1SmartShopTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +694,7 @@
 				946907F91F26750A00C851C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946907FA1F26750A00C851C7 /* Build configuration list for PBXNativeTarget "SAPB1SmartShopUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +703,7 @@
 				946907FC1F26750A00C851C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

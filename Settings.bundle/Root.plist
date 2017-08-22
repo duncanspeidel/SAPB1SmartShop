@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Credentials</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>User ID</string>
+			<key>Key</key>
+			<string>userid</string>
+			<key>DefaultValue</key>
+			<string>duncans74@yahoo.com</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Password</string>
+			<key>Key</key>
+			<string>password</string>
+			<key>DefaultValue</key>
+			<string>change-me</string>
+			<key>IsSecure</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Service Layer Address</string>
+			<key>Key</key>
+			<string>SL</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Service Layer User</string>
+			<key>Key</key>
+			<string>SLUSER</string>
+			<key>DefaultValue</key>
+			<string>manager</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Service Layer Password</string>
+			<key>Key</key>
+			<string>sl_password</string>
+			<key>DefaultValue</key>
+			<string>1234</string>
+			<key>IsSecure</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
